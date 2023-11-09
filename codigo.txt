@@ -1,0 +1,12 @@
+<button onclick="showMessage1()">Canvi de color</button>
+<button onclick="showMessage2()">Canvi de tamany</button>
+<p id="paragraf">Text de proba</p>
+
+
+function showMessage1() {
+  document.getElementById("paragraf").style.color = "blue";
+  }
+
+function showMessage2() { 
+document.getElementById("paragraf").style.fontSize = "50px";
+}
