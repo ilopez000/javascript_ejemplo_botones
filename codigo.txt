@@ -7,6 +7,5 @@ function showMessage1() {
   document.getElementById("paragraf").style.color = "blue";
   }
 
-function showMessage2() { 
-document.getElementById("paragraf").style.fontSize = "50px";
+function showMessage2() { document.getElementById("paragraf").style.fontSize = "50px";
 }
